@@ -1,0 +1,192 @@
+root {
+    --bg: #fafafa;
+    --fg: #141414;
+    --card: #ffffff;
+    --card-fg: #141414;
+    --border: #e5e5e5;
+    --muted: #737373;
+    --secondary: #f0f0f0;
+    --accent: #2b9f78;
+    --accent-fg: #fff;
+    --trust-medium: #e6a817;
+    --trust-low: #e04444;
+    --radius: 12px;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html[Attributes Style] {
+    -webkit-locale: "en";
+}
+injected stylesheet
+@media (prefers-color-scheme: dark) {
+    :root:not([data-color-scheme="light"]) {
+        --finance-positive-color: var(--dark-positive-color);
+        --finance-negative-color: var(--dark-negative-color);
+    }
+}
+injected stylesheet
+@media (prefers-color-scheme: dark) {
+    :root:not([data-color-scheme="light"]) {
+        --super-color: var(--dark-super-color);
+        --caution-color: var(--dark-caution-color);
+        --warning-color: var(--dark-warning-color);
+        --positive-color: var(--dark-positive-color);
+        --negative-color: var(--dark-negative-color);
+        --background-underlay-color: var(--dark-background-underlay-color);
+        --background-base-color: var(--dark-background-base-color);
+        --background-quiet-color: var(--dark-background-quiet-color);
+        --background-subtle-color: var(--dark-background-subtle-color);
+        --background-raised-color: var(--dark-background-raised-color);
+        --background-inverse-color: var(--dark-background-inverse-color);
+        --foreground-color: var(--dark-foreground-color);
+        --foreground-quiet-color: var(--dark-foreground-quiet-color);
+        --foreground-quieter-color: var(--dark-foreground-quieter-color);
+        --foreground-subtle-color: var(--dark-foreground-subtle-color);
+        --foreground-subtlest-color: var(--dark-foreground-subtlest-color);
+        --foreground-inverse-color: var(--dark-foreground-inverse-color);
+        --backdrop-color: var(--dark-backdrop-color);
+        --button-color: var(--dark-button-color);
+        --button-hover-color: var(--dark-button-hover-color);
+        --button-active-color: var(--dark-button-active-color);
+        --shadow-overlay-border: #ffffff1a;
+        --offset-color: var(--dark-offset-color);
+    }
+}
+injected stylesheet
+:root {
+    --banner-height: 34px;
+    --mobile-nav-height: env(safe-area-inset-bottom, 0);
+    --thread-width: 1100px;
+    --thread-content-width: 720px;
+    --header-height: 56px;
+    --thread-input-height-with-padding: 130px;
+    --thread-attachments-height-with-padding: 182px;
+    --sidecar-header-height: 56px;
+    --page-horizontal-padding: var(--size-md);
+    --page-content-height: calc(100dvh - var(--header-height));
+    --toast-v-margin: 60px;
+    --toast-h-margin: 24px;
+    --sidecar-content-height: calc(100vh - var(--sidecar-header-height));
+    --mobile-sidecar-drag-handle-height: 24px;
+    --mobile-sidecar-content-height: calc(100dvh - var(--mobile-sidecar-drag-handle-height));
+    --safe-area-inset-bottom: env(safe-area-inset-bottom, 0);
+    --in-app-header-height: 50px;
+    --sidebar-width: 220px;
+    --sidebar-width-collapsed: 90px;
+    --sidebar-default-width: 56px;
+    --sidebar-pinned-width: 200px;
+    --min-touch-target: 2.75rem;
+    --size-2xs: 2px;
+    --size-xs: 4px;
+    --size-sm: 8px;
+    --size-md: 16px;
+    --size-ml: 24px;
+    --size-lg: 32px;
+    --size-xl: 48px;
+}
+injected stylesheet
+:root, [data-color-scheme="light"], .light {
+    --finance-positive-color: var(--light-positive-color);
+    --finance-negative-color: var(--light-negative-color);
+}
+injected stylesheet
+:root, [data-color-scheme="light"], .light {
+    --super-color: var(--light-super-color);
+    --caution-color: var(--light-caution-color);
+    --warning-color: var(--light-warning-color);
+    --positive-color: var(--light-positive-color);
+    --negative-color: var(--light-negative-color);
+    --background-underlay-color: var(--light-background-underlay-color);
+    --background-base-color: var(--light-background-base-color);
+    --background-quiet-color: var(--light-background-quiet-color);
+    --background-subtle-color: var(--light-background-subtle-color);
+    --background-raised-color: var(--light-background-raised-color);
+    --background-inverse-color: var(--light-background-inverse-color);
+    --foreground-color: var(--light-foreground-color);
+    --foreground-quiet-color: var(--light-foreground-quiet-color);
+    --foreground-quieter-color: var(--light-foreground-quieter-color);
+    --foreground-subtle-color: var(--light-foreground-subtle-color);
+    --foreground-subtlest-color: var(--light-foreground-subtlest-color);
+    --foreground-inverse-color: var(--light-foreground-inverse-color);
+    --backdrop-color: var(--light-backdrop-color);
+    --button-color: var(--light-button-color);
+    --button-hover-color: var(--light-button-hover-color);
+    --button-active-color: var(--light-button-active-color);
+    --shadow-overlay-border: #0000000d;
+    --offset-color: var(--light-offset-color);
+}
+injected stylesheet
+:root {
+    --mint-50: 98.85% .012 170.28;
+    --mint-150: 93.8% .015 171.04;
+    --pale-blue-200: 30.39% .04 213.68;
+    --hydra-350: 71.92% .112 205.51;
+    --hydra-450: 55.27% .086 208.61;
+    --terra-350: 70.73% .133 38.31;
+    --terra-450: 52.75% .13 37.37;
+    --jenova-250: 84.44% .092 .32;
+    --jenova-450: 49.39% .109 9.38;
+    --rosa-350: 68.18% .207 22.93;
+    --rosa-450: 51.72% .199 21.85;
+    --costa-300: 80.62% .151 67.71;
+    --costa-350: 73.83% .169 62.71;
+    --costa-400: 65.87% .163 54.96;
+    --dalmasca-300: 83.9% .132 96.6;
+    --dalmasca-400: 69.87% .123 97.59;
+    --gridania-350: 75.63% .107 109.92;
+    --gridania-450: 60.17% .065 108.2;
+    --limsa-350: 73.11% .113 232.51;
+    --limsa-450: 53.86% .101 231.01;
+    --kuja-350: 72.5% .119 316.63;
+    --kuja-450: 54.3% .097 316.69;
+    --warm-carbuncle-0: 68.25% .072 206.25;
+    --warm-carbuncle-500: 55.25% .085 207.66;
+    --warm-ifrit-300: 72.01% .178 11.8;
+    --warm-ifrit-600: 49.18% .143 16.18;
+    --warm-phoenix-300: 72.82% .166 39.4;
+    --warm-phoenix-600: 49.02% .107 45.28;
+    --warm-garuda-300: 69.92% .166 144.58;
+    --warm-garuda-600: 45.93% .133 145.32;
+    --warm-astra-0: 100% 0 0;
+    --warm-astra-100: 98.93% .003 48.72;
+    --warm-astra-200: 97.98% .005 78.3;
+    --warm-astra-300: 95.63% .006 75.41;
+    --warm-astra-400: 93.5% .007 80.72;
+    --warm-astra-700: 87.11% .011 81.79;
+    --warm-astra-1000: 26.42% .013 93.9;
+    --warm-astra-2000: 22.82% .047 83.09;
+    --warm-umbra-0: 0% 0 0;
+    --warm-umbra-100: 20.09% .003 67.68;
+    --warm-umbra-200: 23.15% .002 67.7;
+    --warm-umbra-300: 25.68% .002 67.72;
+    --warm-umbra-400: 28.16% .002 67.73;
+    --warm-umbra-1000: 87.35% .002 67.8;
+    --light-super-color: var(--warm-carbuncle-500);
+    --light-caution-color: var(--warm-ifrit-600);
+    --light-warning-color: var(--warm-phoenix-600);
+    --light-positive-color: var(--warm-garuda-600);
+    --light-negative-color: var(--warm-ifrit-600);
+    --light-background-underlay-color: var(--warm-astra-200);
+Show all properties (38 more)
+}
+user agent stylesheet
+:root {
+    view-transition-name: root;
+}
+user agent stylesheet
+html {
+    display: block;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

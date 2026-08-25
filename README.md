@@ -61,3 +61,23 @@ src/
   App.js            Composes all sections
   index.js          Entry point
 ```
+## Preview
+
+
+
+![Home](home.jpeg)
+
+
+
+
+![About](aboutseaction.jpeg)
+
+
+
+
+![Skills](skillseaction.jpeg)
+
+
+
+
+![Projects](projectseaction.jpeg)
